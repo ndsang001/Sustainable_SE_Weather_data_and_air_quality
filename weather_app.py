@@ -83,22 +83,6 @@ def analyze_data():
     print("Correlation Matrix:")
     print(correlation_matrix)
 
-# def show_weather_and_air_quality():
-#     city = city_entry.get()
-#     if city:
-#         coordinates = get_coordinates(city)
-#         if coordinates:
-#             weather_data = get_weather(coordinates)
-#             if weather_data:
-#                 update_weather_display(weather_data)
-            
-#             air_data = get_air_quality(coordinates)
-#             if air_data:
-#                 update_air_quality_display(air_data)
-#         else:
-#             messagebox.showerror("Error", "City not found.")
-#     else:
-#         messagebox.showerror("Error", "Please enter a city name.")
 def show_weather_and_air_quality():
     city = city_entry.get()
     if city:
